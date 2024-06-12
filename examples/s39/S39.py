@@ -8,7 +8,7 @@ ctx = Mgx3D.getStdContext()
 # Changement d'unité de longueur
 ctx.setLengthUnit(Mgx3D.Unit.centimeter)
 # Import STEP
-ctx.getGeomManager().importSTEP("S39.step")
+ctx.getGeomManager().importSTEP("magix3d_extra/examples/s39/S39.step")
 # Création d'un bloc topologique structuré sans projection (Vol0000)
 ctx.getTopoManager().newFreeTopoOnGeometry ("Vol0000")
 # Affectation d'une projection vers Pt0026 pour les entités topologiques Som0001

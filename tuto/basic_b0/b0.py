@@ -8,7 +8,7 @@ ctx = Mgx3D.getStdContext()
 # Changement d'unité de longueur
 ctx.setLengthUnit(Mgx3D.Unit.centimeter)
 # Import STEP
-ctx.getGeomManager().importSTEP("B0.step")
+ctx.getGeomManager().importSTEP("magix3d_extra/tuto/basic_b0/B0.step")
 # Création d'un bloc topologique structuré sans projection (Vol0000)
 ctx.getTopoManager().newFreeTopoOnGeometry ("Vol0000")
 # Changement de discrétisation pour Ar0000

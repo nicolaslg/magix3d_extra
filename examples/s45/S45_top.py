@@ -8,7 +8,7 @@ ctx = Mgx3D.getStdContext()
 # Changement d'unité de longueur
 ctx.setLengthUnit(Mgx3D.Unit.centimeter)
 # Import STEP
-ctx.getGeomManager().importSTEP("S45.step")
+ctx.getGeomManager().importSTEP("magix3d_extra/examples/s45/S45.step")
 # Création d'un bloc unitaire mis dans le groupe box
 ctx.getTopoManager().newFreeTopoInGroup ("box", 3)
 # Affectation d'une projection vers Pt0021 pour les entités topologiques Som0005
